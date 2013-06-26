@@ -1,0 +1,10 @@
+*~
+*#
+sample.log
+test.js
+.git
+test/*
+test
+node_modules
+node_modules/*
+

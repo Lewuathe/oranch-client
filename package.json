@@ -1,0 +1,24 @@
+{
+  "name": "oranch-client",
+  "version": "0.0.2",
+  "description" : "Log receiving module with node",
+  "repository" : {
+	  "type" : "git",
+	  "url"  : "https://github.com/Lewuathe/oranch-client"
+  },
+  "scripts": {
+    "start": "forever start oranch-start.js",
+	"test" : "make test"
+  },
+  "dependencies": {
+	  "oranch" : "0.0.x",
+	  "nodemailer" : "0.4.x"
+   },
+  "devDependencies" : {
+	  "vows" : "0.7.x"
+  },
+  "engines" : {
+      "node" : ">=0.8.x",
+      "npm" : "1.2.x"
+  }
+}
